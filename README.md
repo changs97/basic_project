@@ -73,7 +73,6 @@ flutter create --template=package packageName
 packageName에 패키지 이름을 넣는다. ex) flutter create --template=package splash
 
 ## ios 빌드 에러시 조치
-cd macos
 rm -rf Podfile.lock
 rm -rf Pods
 rm -rf ~/Library/Developer/Xcode/DerivedData/*
